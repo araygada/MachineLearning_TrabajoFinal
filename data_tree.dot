@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label="total <= 0.0\ngini = 0.098\nsamples = 22400\nvalue = [21244, 1156]\nclass = 1", fillcolor="#e68844"] ;
-1 [label="average <= 0.0\ngini = 0.069\nsamples = 12992\nvalue = [12524, 468]\nclass = 1", fillcolor="#e68640"] ;
+0 [label="total <= 0.0\ngini = 0.5\nsamples = 42488\nvalue = [21244, 21244]\nclass = 1", fillcolor="#ffffff"] ;
+1 [label="average <= 0.0\ngini = 0.48\nsamples = 19721\nvalue = [11854, 7867]\nclass = 1", fillcolor="#f6d5bc"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.236\nsamples = 300\nvalue = [259, 41]\nclass = 1", fillcolor="#e99558"] ;
+2 [label="gini = 0.411\nsamples = 1225\nvalue = [354, 871]\nclass = 0", fillcolor="#89c5f0"] ;
 1 -> 2 ;
-3 [label="gini = 0.065\nsamples = 12692\nvalue = [12265, 427]\nclass = 1", fillcolor="#e68540"] ;
+3 [label="gini = 0.47\nsamples = 18496\nvalue = [11500, 6996]\nclass = 1", fillcolor="#f5ceb1"] ;
 1 -> 3 ;
-4 [label="average <= 0.0\ngini = 0.136\nsamples = 9408\nvalue = [8720, 688]\nclass = 1", fillcolor="#e78b49"] ;
+4 [label="average <= 0.0\ngini = 0.485\nsamples = 22767\nvalue = [9390, 13377]\nclass = 0", fillcolor="#c4e2f7"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="gini = 0.27\nsamples = 1139\nvalue = [956, 183]\nclass = 1", fillcolor="#ea995f"] ;
+5 [label="gini = 0.356\nsamples = 4950\nvalue = [1145, 3805]\nclass = 0", fillcolor="#75baed"] ;
 4 -> 5 ;
-6 [label="gini = 0.115\nsamples = 8269\nvalue = [7764, 505]\nclass = 1", fillcolor="#e78946"] ;
+6 [label="gini = 0.497\nsamples = 17817\nvalue = [8245, 9572]\nclass = 0", fillcolor="#e4f1fb"] ;
 4 -> 6 ;
 }
